@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.space {
+    padding: 3rem 0;
+}
+
+.business-detail {
+    position: relative;
+    background: linear-gradient(90deg, #00a4bd 0%, #00afb2 50%, #00bda5 100%);
+}
+
+.heading_block {
+    position: relative;
+    background-color: #f15a1542;
+    width: 100%;
+    height: 35px;
+    max-width: 500px;
+    margin: 30px 0 60px;
+}
+
+.heading_block .sectiontitle {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%, -90%);
+}
+
+.dash {
+    height: 5px;
+    width: 100px;
+    background-color: #fff;
+    margin: 5px 0 0;
+}
+
+.business_box h5 {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.business_box h2 {
+    font-size: 26px;
+    font-weight: 600;
+
+    margin-bottom: 10px;
+    color: white;
+}
+
+.business_box p {
+
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+    padding: 0;
+
+}
+
+.business-detail .col-md-6 {
+    padding: 0 0 60px;
+}
+
+.features .title {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 40px;
+
+    margin: 0 auto 60px;
+}
+
+.reasons .title {
+    font-size: 40px;
+    text-align: center;
+    margin: 0 0 80px;
+}
+
+/* .reasonboxes {
+    width: 100%;
+    max-width: 80px;
+    margin: 0 auto 20px;
+} */
+
+.reasonboxes p {
+    display: block;
+    font-size: 18px;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    max-width: 290px;
+    margin: auto;
+}
+
+.reasonboxes h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 20px;
+}
+
+.sales {
+    color: #fff;
+    background-color: #f15a15;
+}
+
+.salesbox h4 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: end;
+
+}
+
+.salesbox p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: end;
+    color: #fff;
+}
+
+.custombtn {
+    all: unset;
+    cursor: pointer;
+    padding: 15px 40px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #262e2e;
+    margin: 20px 0 0;
+    display: flex;
+}
+
+.orangebtn {
+
+    all: unset;
+    cursor: pointer;
+    padding: 15px 40px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #f15a15;
+    margin: 20px 0 0;
+    display: flex;
+
+}
+
+.cart {
+    color: #262e2e;
+    background-color: #f5f8fa;
+}
+
+.cart img {
+    width: 100%;
+    max-width: 480px;
+}
+
+.cartbox h4 {
+    font-size: 48px;
+    font-weight: 500;
+    text-align: start;
+    margin-bottom: 20px;
+
+}
+
+.cartbox p {
+    font-size: 22px;
+    color: #7d7d7d;
+    font-weight: 400;
+    text-align: start;
+    padding: 0;
+    margin-bottom: 30px !important;
+}
+
+.whatsapp {
+    background: linear-gradient(75deg, #ef4136 0%, #fbb040 100%);
+}
+
+
+.whatsapp .title {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    color: #fff;
+}
+
+.whatsapp p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    opacity: .8;
+    line-height: 26px;
+}
+
+
+.whatsapp-commerce-container {
+    display: flex;
+    align-items: center;
+    /* width: calc(50% - 50px);
+    min-width: calc(50% - 50px); */
+    gap: 20px;
+    /* background-color: #333; */
+    /* Assuming a background color for better visibility */
+    /* padding: 20px; */
+    border-radius: 10px;
+}
+
+.whatsapp-commerce-container img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+.content .title {
+    margin: 0 0 10px;
+}
+
+.content .description {
+    color: #fff;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+.pricing-section .price-card {
+    list-style-type: none;
+    width: calc((100% - 60px) / 3);
+    background: #ffffff;
+    padding: 40px 20px 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 8px #00000040;
+    min-height: 550px;
+    min-width: 370px;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.pricing-section .price-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 14px;
+    width: 100%;
+    background-color: #f15a15;
+    background-image: linear-gradient(90deg, #fd9633 0%, #fa5742 100%);
+    border-radius: 20px;
+}
+
+.pricing-section .price-card-content .plan-label {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+.pricing-section .price-card-content .price-lists {
+    row-gap: 20px;
+}
+
+.pricing-section .price-card-content .price-lists .price .actual-offer {
+    display: flex;
+    gap: 5px;
+}
+
+.pricing-section .price-card-content .price-lists .price .actual {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #262e2e;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .7;
+}
+
+.pricing-section .price-card-content .price-lists .price .offer {
+    background: #00a4bd;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+.pricing-section .price-card-content .price-lists .price .discounted {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    font-weight: 500;
+    word-spacing: -.5px;
+}
+
+.pricing-section .price-card-content .price-lists .price .discounted p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 5px 0 0;
+}
+
+.pricing-section .price-card-content .feature-lists {
+    margin: 20px 0 0;
+    row-gap: 10px;
+}
+
+.pricing-section .price-card-content .feature-lists .feature img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.price-btn {
+    all: unset;
+
+    cursor: pointer;
+    font-size: 16px;
+
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #f15a15;
+    background-image: linear-gradient(75deg, #ef4136 0%, #fbb040 100%);
+    text-align: center;
+    padding: 14px 0;
+    margin: auto;
+    display: block;
+    width: 90%;
+    border-radius: 10px;
+}
