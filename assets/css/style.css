@@ -487,12 +487,42 @@ h6 {
 
 
 
+.info {
+    background-color: #f3f4f6;
+}
+
+.card {
+    border-radius: 0.5rem;
+}
+
+.card h1 {
+    font-weight: 600;
+}
+
+.card table {
+    border-top: none;
+}
+
+.card ul li {
+    margin-bottom: 0.5rem;
+}
 
 
 
 
+.bg-orange {
+    background-color: #f15a15 !important;
+}
 
 
+
+.priceresult {
+    height: 100%;
+    background: linear-gradient(90deg, #00a4bd 0%, #00afb2 50%, #00bda5 100%);
+    border-radius: 15px;
+    padding: 25px 50px;
+    box-shadow: #63636333 0 2px 8px;
+}
 
 
 
@@ -542,4 +572,10 @@ h6 {
     to {
         margin-left: 0%;
     }
+}
+
+footer {
+    padding: 40px 30px;
+    background-color: #262e2e;
+    gap: 25px;
 }
